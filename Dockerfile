@@ -2,7 +2,7 @@ FROM node:14.17.6
 
 LABEL version="1.0.0" description="API" maintainer="Alan Martines<alan.martines@produzirsa.com.br>"
 
-RUN   sudo apt-get update && \
+RUN   apt-get update && \
 	apt-get upgrade -y && \
 	apt-get install -y \
 	git \
