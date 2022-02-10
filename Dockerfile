@@ -85,7 +85,6 @@ RUN   apt-get update && \
 	libxss1 \
 	libxtst6 \
 	lsb-release \
-	libu2f-udev \
 	wget \
 	xdg-utils \
 	ffmpeg imagemagick \
